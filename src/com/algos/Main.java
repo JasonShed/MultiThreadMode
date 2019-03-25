@@ -8,6 +8,9 @@ public class Main {
     public static void main(String[] args) {
         ThreadFactory factory = Executors.defaultThreadFactory();
         factory.newThread(new Printer("hello")).start();
+
+
+        System.out.println(System.getProperty("user.dir"));
     }
 }
 

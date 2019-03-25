@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b679c94-bbf9-4562-b609-21e84cc58cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algos/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/UserThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/GuardedSuspension/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/GuardedSuspension/GSMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/GuardedSuspension/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/GuardedSuspension/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/GuardedSuspension/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/Immutable/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/Immutable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/Immutable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/Immutable/PrintPersonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/TSLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/SingleThreadExecution/SemaphoreThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreadMode/com/algos/SingleThreadExecution/SemaphoreThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,34 +36,49 @@
     <session id="1390641089">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="66" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.370" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="16" />
+          <entry key="project.open.time.9" value="23" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="58" />
+          <entry key="md" value="3" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="58" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1911" />
+          <entry key="dummy" value="19" />
+          <entry key="java" value="6055" />
+          <entry key="md" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1911" />
+          <entry key="JAVA" value="6055" />
+          <entry key="Markdown" value="326" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -55,10 +86,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algos/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/RequestQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,57 +115,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/ClientThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Semaphore.java">
+        <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/ServerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="316" column="16" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Gate.java">
+        <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/GSMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/UserThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -131,6 +150,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ThreadPoolExecutor</find>
+      <find>e</find>
+      <find>executor</find>
+      <find>execute</find>
+      <find>Thread.yield</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -138,11 +166,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/algos/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/algos/Main.java" />
         <option value="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/UserThread.java" />
         <option value="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Main.java" />
         <option value="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Gate.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/Immutable/PrintPersonThread.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/Log.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/SpecificStorageMain.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/TSLog.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogOne.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainOne.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/test.java" />
         <option value="$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/Immutable/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/Immutable/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/algos/Immutable/ArrayListTest.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/GuardedSuspension/Request.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/GuardedSuspension/RequestQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/GuardedSuspension/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/GuardedSuspension/GSMain.java" />
+        <option value="$PROJECT_DIR$/src/com/algos/GuardedSuspension/ClientThread.java" />
       </list>
     </option>
   </component>
@@ -153,9 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,9 +210,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,7 +235,12 @@
               <item name="MultiThreadMode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiThreadMode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleThreadExecution" type="462c0819:PsiDirectoryNode" />
+              <item name="algos" type="462c0819:PsiDirectoryNode" />
+              <item name="GuardedSuspension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiThreadMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -197,9 +249,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="holdsLock&#9;PSI&#9;JAVA://java.lang.Thread#holdsLock" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543685685310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553516538576" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -217,18 +271,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreDemo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.algos.Main" />
+  <component name="RunManager" selected="Application.GSMain">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algos.Immutable.ArrayListTest" />
       <module name="MultiThreadMode" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algos.Immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GSMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algos.GuardedSuspension.GSMain" />
+      <module name="MultiThreadMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algos.GuardedSuspension.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algos.SingleThreadExecution.Main" />
       <module name="MultiThreadMode" />
       <extension name="coverage">
@@ -241,12 +311,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algos.SingleThreadExecution.SemaphoreDemo" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algos.Immutable.Main" />
       <module name="MultiThreadMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algos.SingleThreadExecution.*" />
+          <option name="PATTERN" value="com.algos.Immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algos.test" />
+      <module name="MultiThreadMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,15 +338,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.ArrayListTest" />
+      <item itemvalue="Application.GSMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.GSMain" />
+        <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -287,36 +374,92 @@
       <workItem from="1543300499057" duration="1043000" />
       <workItem from="1543367741940" duration="470000" />
       <workItem from="1543651412065" duration="2235000" />
-      <workItem from="1543654604379" duration="9409000" />
+      <workItem from="1543654604379" duration="9729000" />
+      <workItem from="1543726604863" duration="1141000" />
+      <workItem from="1543799344908" duration="2655000" />
+      <workItem from="1543971793723" duration="4110000" />
+      <workItem from="1544174367143" duration="225000" />
+      <workItem from="1544328055270" duration="3000" />
+      <workItem from="1544328464744" duration="14000" />
+      <workItem from="1544328494604" duration="130000" />
+      <workItem from="1544404500941" duration="181000" />
+      <workItem from="1544503111729" duration="565000" />
+      <workItem from="1544586855319" duration="171000" />
+      <workItem from="1544663687939" duration="208000" />
+      <workItem from="1544855782158" duration="503000" />
+      <workItem from="1545006788552" duration="716000" />
+      <workItem from="1545099470643" duration="192000" />
+      <workItem from="1545147035757" duration="259000" />
+      <workItem from="1545182721304" duration="95000" />
+      <workItem from="1545286946573" duration="119000" />
+      <workItem from="1545372446019" duration="158000" />
+      <workItem from="1545441732376" duration="180000" />
+      <workItem from="1545613618369" duration="548000" />
+      <workItem from="1545670199650" duration="337000" />
+      <workItem from="1545700664628" duration="294000" />
+      <workItem from="1545923862387" duration="391000" />
+      <workItem from="1546082674244" duration="308000" />
+      <workItem from="1546140744545" duration="483000" />
+      <workItem from="1546227338905" duration="110000" />
+      <workItem from="1546315292648" duration="117000" />
+      <workItem from="1546418246034" duration="117000" />
+      <workItem from="1546478011538" duration="106000" />
+      <workItem from="1546598279707" duration="311000" />
+      <workItem from="1546676063512" duration="108000" />
+      <workItem from="1546869391155" duration="89000" />
+      <workItem from="1546953708700" duration="155000" />
+      <workItem from="1547036806004" duration="220000" />
+      <workItem from="1547220684860" duration="143000" />
+      <workItem from="1547440904456" duration="312000" />
+      <workItem from="1547561919155" duration="311000" />
+      <workItem from="1547650474001" duration="181000" />
+      <workItem from="1547795464874" duration="113000" />
+      <workItem from="1548082415292" duration="169000" />
+      <workItem from="1548417457120" duration="176000" />
+      <workItem from="1548510093844" duration="162000" />
+      <workItem from="1548561044645" duration="217000" />
+      <workItem from="1548686370448" duration="1507000" />
+      <workItem from="1548777405216" duration="861000" />
+      <workItem from="1549787708748" duration="3304000" />
+      <workItem from="1549851396850" duration="1232000" />
+      <workItem from="1549935452459" duration="517000" />
+      <workItem from="1549981267825" duration="167000" />
+      <workItem from="1550056277054" duration="432000" />
+      <workItem from="1550151667565" duration="490000" />
+      <workItem from="1552134646394" duration="835000" />
+      <workItem from="1552827184330" duration="10015000" />
+      <workItem from="1553438110512" duration="12885000" />
+      <workItem from="1553510957060" duration="4721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16524000" />
+    <option name="totallyTimeSpent" value="70913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1849" y="77" width="1920" height="1057" extended-state="1" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17944622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24542125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27963525" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26959246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3450106" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31870428" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,6 +470,37 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26959246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31870428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -339,14 +513,10 @@
     <entry file="file://$PROJECT_DIR$/MultiThreadMode.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algos/Test.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -357,59 +527,674 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/algos/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/UserThread.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="7888">
+          <caret line="498" column="29" selection-start-line="498" selection-start-column="29" selection-end-line="498" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.rmi/sun/rmi/server/ActivatableRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="304" column="5" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jack-log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alice-log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="18" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/TSLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/LogTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/ThreadSpecificStorage/MainTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="141" column="24" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#ExecutorService#0" />
+            <element signature="docComment;method#shutdownNow#0;class#ExecutorService#0" />
+            <element signature="docComment;method#isShutdown#0;class#ExecutorService#0" />
+            <element signature="docComment;method#isTerminated#0;class#ExecutorService#0" />
+            <element signature="docComment;method#awaitTermination#0;class#ExecutorService#0" />
+            <element signature="docComment;method#submit#0;class#ExecutorService#0" />
+            <element signature="docComment;method#submit#1;class#ExecutorService#0" />
+            <element signature="docComment;method#submit#2;class#ExecutorService#0" />
+            <element signature="docComment;method#invokeAll#0;class#ExecutorService#0" />
+            <element signature="docComment;method#invokeAll#1;class#ExecutorService#0" />
+            <element signature="docComment;method#invokeAny#0;class#ExecutorService#0" />
+            <element signature="docComment;method#invokeAny#1;class#ExecutorService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="116" column="42" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#newTaskFor#0;class#AbstractExecutorService#0" />
+            <element signature="method#newTaskFor#0;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#newTaskFor#1;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#submit#0;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#submit#1;class#AbstractExecutorService#0" />
+            <element signature="method#submit#1;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#submit#2;class#AbstractExecutorService#0" />
+            <element signature="method#submit#2;class#AbstractExecutorService#0" />
+            <element signature="docComment;method#doInvokeAny#0;class#AbstractExecutorService#0" />
+            <element signature="method#doInvokeAny#0;class#AbstractExecutorService#0" />
+            <element signature="e#4801#4856#0" />
+            <element signature="e#5108#5161#0" />
+            <element signature="method#invokeAny#0;class#AbstractExecutorService#0" />
+            <element signature="method#invokeAny#1;class#AbstractExecutorService#0" />
+            <element signature="method#invokeAll#0;class#AbstractExecutorService#0" />
+            <element signature="method#invokeAll#1;class#AbstractExecutorService#0" />
+            <element signature="e#8956#9010#0" />
+            <element signature="docComment;method#cancelAll#1;class#AbstractExecutorService#0" />
+            <element signature="method#cancelAll#1;class#AbstractExecutorService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="397" column="64" lean-forward="true" selection-start-line="397" selection-start-column="64" selection-end-line="397" selection-end-column="64" />
+          <folding>
+            <element signature="docComment;class#ThreadPoolExecutor#0" />
+            <element signature="e#12919#15690#0" />
+            <element signature="e#16247#16348#0" />
+            <element signature="e#16353#16420#0" />
+            <element signature="e#16907#16981#0" />
+            <element signature="e#17112#17186#0" />
+            <element signature="e#17317#17516#0" />
+            <element signature="e#17597#18149#0" />
+            <element signature="e#18208#18952#0" />
+            <element signature="e#19022#19127#0" />
+            <element signature="e#19194#19256#0" />
+            <element signature="e#19329#19419#0" />
+            <element signature="e#19458#19589#0" />
+            <element signature="e#19912#20839#0" />
+            <element signature="e#20895#20967#0" />
+            <element signature="e#21028#21268#0" />
+            <element signature="e#21315#21477#0" />
+            <element signature="e#21536#21876#0" />
+            <element signature="e#21921#22102#0" />
+            <element signature="e#22150#22208#0" />
+            <element signature="e#22308#23401#0" />
+            <element signature="e#23512#23580#0" />
+            <element signature="e#23630#24528#0" />
+            <element signature="e#23630#26883#0" />
+            <element signature="e#24645#24782#0" />
+            <element signature="e#24867#24931#0" />
+            <element signature="e#24969#25012#0" />
+            <element signature="e#25049#25079#0" />
+            <element signature="e#25127#25185#0" />
+            <element signature="e#25241#25386#0" />
+            <element signature="e#25241#25599#0" />
+            <element signature="e#25609#25659#0" />
+            <element signature="e#25736#25751#0" />
+            <element signature="e#25973#26203#0" />
+            <element signature="e#26213#26358#0" />
+            <element signature="e#26368#26409#0" />
+            <element signature="e#26418#26469#0" />
+            <element signature="e#26478#26519#0" />
+            <element signature="e#26528#26585#0" />
+            <element signature="e#26595#26877#0" />
+            <element signature="e#26946#27217#0" />
+            <element signature="e#26946#27551#0" />
+            <element signature="e#27557#28097#0" />
+            <element signature="e#27557#29070#0" />
+            <element signature="e#29153#29523#0" />
+            <element signature="e#29153#29865#0" />
+            <element signature="e#29871#30018#0" />
+            <element signature="e#29871#30183#0" />
+            <element signature="e#30189#31177#0" />
+            <element signature="e#30189#31827#0" />
+            <element signature="e#31833#31956#0" />
+            <element signature="e#32207#32352#0" />
+            <element signature="e#32456#32655#0" />
+            <element signature="e#32456#32685#0" />
+            <element signature="e#32691#32941#0" />
+            <element signature="e#32691#33330#0" />
+            <element signature="e#33419#34814#0" />
+            <element signature="e#33419#37109#0" />
+            <element signature="e#36051#36081#0" />
+            <element signature="e#37115#37362#0" />
+            <element signature="e#37115#37693#0" />
+            <element signature="e#37699#38310#0" />
+            <element signature="e#37699#39186#0" />
+            <element signature="e#39192#40009#0" />
+            <element signature="e#39192#41199#0" />
+            <element signature="e#41205#43332#0" />
+            <element signature="e#41205#44790#0" />
+            <element signature="e#43682#43735#0" />
+            <element signature="e#44836#46230#0" />
+            <element signature="e#48495#49916#0" />
+            <element signature="e#48495#50380#0" />
+            <element signature="e#50386#51854#0" />
+            <element signature="e#50386#52941#0" />
+            <element signature="e#52947#53604#0" />
+            <element signature="e#55258#55688#0" />
+            <element signature="e#55258#56077#0" />
+            <element signature="e#56083#56837#0" />
+            <element signature="e#56083#57251#0" />
+            <element signature="e#57351#57394#0" />
+            <element signature="e#57481#57995#0" />
+            <element signature="e#57481#58145#0" />
+            <element signature="e#58249#58774#0" />
+            <element signature="e#58780#59650#0" />
+            <element signature="e#58780#59993#0" />
+            <element signature="e#59890#59924#0" />
+            <element signature="e#59999#60218#0" />
+            <element signature="e#59999#60413#0" />
+            <element signature="e#60419#60586#0" />
+            <element signature="e#60674#60876#0" />
+            <element signature="e#60674#61069#0" />
+            <element signature="e#61075#61254#0" />
+            <element signature="e#61358#61968#0" />
+            <element signature="e#61358#62835#0" />
+            <element signature="e#62362#62420#0" />
+            <element signature="e#62841#62973#0" />
+            <element signature="e#63049#63381#0" />
+            <element signature="e#63049#63522#0" />
+            <element signature="e#63528#63659#0" />
+            <element signature="e#63528#63864#0" />
+            <element signature="e#63870#64108#0" />
+            <element signature="e#63870#64248#0" />
+            <element signature="e#64254#64796#0" />
+            <element signature="e#64894#65738#0" />
+            <element signature="e#64894#66104#0" />
+            <element signature="e#66110#66632#0" />
+            <element signature="e#66110#66954#0" />
+            <element signature="e#66960#67117#0" />
+            <element signature="e#67199#68068#0" />
+            <element signature="e#67199#68567#0" />
+            <element signature="e#68573#69122#0" />
+            <element signature="e#69288#69593#0" />
+            <element signature="e#69679#70403#0" />
+            <element signature="e#69679#70584#0" />
+            <element signature="e#70590#71117#0" />
+            <element signature="e#70590#71960#0" />
+            <element signature="e#71535#71599#0" />
+            <element signature="e#71988#72101#0" />
+            <element signature="e#71988#72493#0" />
+            <element signature="e#72238#72282#0" />
+            <element signature="e#72499#72645#0" />
+            <element signature="e#72499#72980#0" />
+            <element signature="e#72986#73141#0" />
+            <element signature="e#72986#73375#0" />
+            <element signature="e#73381#73681#0" />
+            <element signature="e#73381#74107#0" />
+            <element signature="e#74113#74467#0" />
+            <element signature="e#74113#74808#0" />
+            <element signature="e#74814#75056#0" />
+            <element signature="e#74814#76030#0" />
+            <element signature="e#76063#76678#0" />
+            <element signature="e#76063#76737#0" />
+            <element signature="e#76743#78841#0" />
+            <element signature="e#76743#78902#0" />
+            <element signature="e#78908#79159#0" />
+            <element signature="e#78908#79195#0" />
+            <element signature="e#79249#79484#0" />
+            <element signature="e#79249#80139#0" />
+            <element signature="e#79572#79634#0" />
+            <element signature="e#79572#79672#0" />
+            <element signature="e#79682#79975#0" />
+            <element signature="e#79682#80133#0" />
+            <element signature="e#80145#80370#0" />
+            <element signature="e#80145#81111#0" />
+            <element signature="e#80453#80511#0" />
+            <element signature="e#80453#80544#0" />
+            <element signature="e#80554#80814#0" />
+            <element signature="e#80554#81105#0" />
+            <element signature="e#81117#81213#0" />
+            <element signature="e#81117#81714#0" />
+            <element signature="e#81298#81357#0" />
+            <element signature="e#81298#81392#0" />
+            <element signature="e#81402#81624#0" />
+            <element signature="e#81402#81708#0" />
+            <element signature="e#81720#81929#0" />
+            <element signature="e#81720#82788#0" />
+            <element signature="e#82020#82108#0" />
+            <element signature="e#82020#82149#0" />
+            <element signature="e#82159#82582#0" />
+            <element signature="e#82159#82782#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Gate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algos/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/UserThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5970">
+          <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#24256#24257#0" expanded="true" />
+            <element signature="e#24284#24285#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="316" column="16" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="16" />
+        <state relative-caret-position="302">
+          <caret line="628" column="15" selection-start-line="628" selection-start-column="15" selection-end-line="628" selection-end-column="15" />
+          <folding>
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#6621#6622#0" expanded="true" />
+            <element signature="e#25625#25626#0" expanded="true" />
+            <element signature="e#25665#25666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+          <folding>
+            <element signature="e#48666#48667#0" expanded="true" />
+            <element signature="e#48693#48694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/Immutable/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algos/SingleThreadExecution/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        <state relative-caret-position="374">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/Immutable/PrintPersonThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#CopyOnWriteArrayList#0" />
+            <element signature="e#3059#3208#0" />
+            <element signature="e#3262#3316#0" />
+            <element signature="e#3369#3483#0" />
+            <element signature="e#3514#3515#0" expanded="true" />
+            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#3549#3583#0" />
+            <element signature="e#3652#3693#0" />
+            <element signature="e#3728#3729#0" expanded="true" />
+            <element signature="e#3767#3768#0" expanded="true" />
+            <element signature="e#3774#4072#0" />
+            <element signature="e#3774#4667#0" />
+            <element signature="e#4344#4408#0" />
+            <element signature="e#4673#4915#0" />
+            <element signature="e#5051#5172#0" />
+            <element signature="e#5242#5385#0" />
+            <element signature="e#5456#5791#0" />
+            <element signature="e#6229#6440#0" />
+            <element signature="e#6229#6828#0" />
+            <element signature="e#6834#7220#0" />
+            <element signature="e#6834#7368#0" />
+            <element signature="e#7374#7406#0" />
+            <element signature="e#7550#8274#0" />
+            <element signature="e#8428#8460#0" />
+            <element signature="e#8428#8607#0" />
+            <element signature="e#8613#9401#0" />
+            <element signature="e#8613#9540#0" />
+            <element signature="e#9546#9694#0" />
+            <element signature="e#9546#10102#0" />
+            <element signature="e#10108#10648#0" />
+            <element signature="e#10108#10783#0" />
+            <element signature="e#10789#12797#0" />
+            <element signature="e#10789#13210#0" />
+            <element signature="e#13490#13584#0" />
+            <element signature="e#13671#13846#0" />
+            <element signature="e#13671#14438#0" />
+            <element signature="e#14444#14645#0" />
+            <element signature="e#14973#15262#0" />
+            <element signature="e#14973#16073#0" />
+            <element signature="e#16079#16365#0" />
+            <element signature="e#16079#17064#0" />
+            <element signature="e#17070#17697#0" />
+            <element signature="e#17070#17908#0" />
+            <element signature="e#17914#18047#0" />
+            <element signature="e#17914#19229#0" />
+            <element signature="e#19235#19898#0" />
+            <element signature="e#19235#20716#0" />
+            <element signature="e#20722#20897#0" />
+            <element signature="e#20722#21090#0" />
+            <element signature="e#21096#21215#0" />
+            <element signature="e#21096#22038#0" />
+            <element signature="e#22044#22453#0" />
+            <element signature="e#22044#22724#0" />
+            <element signature="e#22730#23666#0" />
+            <element signature="e#22730#23802#0" />
+            <element signature="e#23808#24741#0" />
+            <element signature="e#23808#24878#0" />
+            <element signature="e#24884#25353#0" />
+            <element signature="e#24884#26194#0" />
+            <element signature="e#26200#26317#0" />
+            <element signature="e#26200#26426#0" />
+            <element signature="e#26432#26870#0" />
+            <element signature="e#26432#27583#0" />
+            <element signature="e#27589#28408#0" />
+            <element signature="e#27589#29446#0" />
+            <element signature="e#29452#29513#0" />
+            <element signature="e#29452#29747#0" />
+            <element signature="e#29753#29814#0" />
+            <element signature="e#29753#29954#0" />
+            <element signature="e#30294#30458#0" />
+            <element signature="e#30464#31768#0" />
+            <element signature="e#31774#31969#0" />
+            <element signature="e#31975#32236#0" />
+            <element signature="e#32242#32374#0" />
+            <element signature="e#32380#32641#0" />
+            <element signature="e#32647#33001#0" />
+            <element signature="e#32647#33380#0" />
+            <element signature="e#33386#33663#0" />
+            <element signature="e#33386#34250#0" />
+            <element signature="e#34256#34751#0" />
+            <element signature="e#34838#35681#0" />
+            <element signature="e#34838#36189#0" />
+            <element signature="e#36195#36395#0" />
+            <element signature="e#36195#36587#0" />
+            <element signature="e#36593#37032#0" />
+            <element signature="e#37130#37457#0" />
+            <element signature="e#37563#37952#0" />
+            <element signature="e#37563#38251#0" />
+            <element signature="e#38257#38809#0" />
+            <element signature="e#38257#38968#0" />
+            <element signature="e#38974#41404#0" />
+            <element signature="e#39045#39073#0" />
+            <element signature="e#39123#39190#0" />
+            <element signature="e#39228#39358#0" />
+            <element signature="e#39540#39730#0" />
+            <element signature="e#39740#39938#0" />
+            <element signature="e#40096#40308#0" />
+            <element signature="e#40414#40623#0" />
+            <element signature="e#40729#40938#0" />
+            <element signature="e#41044#41053#0" />
+            <element signature="e#41044#41398#0" />
+            <element signature="e#41410#42108#0" />
+            <element signature="e#41410#42484#0" />
+            <element signature="e#42490#42542#0" />
+            <element signature="e#42490#49710#0" />
+            <element signature="e#42810#43139#0" />
+            <element signature="e#43149#43397#0" />
+            <element signature="e#43407#43659#0" />
+            <element signature="e#43669#43929#0" />
+            <element signature="e#43939#44238#0" />
+            <element signature="e#44248#44456#0" />
+            <element signature="e#44466#44616#0" />
+            <element signature="e#44626#44901#0" />
+            <element signature="e#44911#45325#0" />
+            <element signature="e#45335#45683#0" />
+            <element signature="e#45693#45942#0" />
+            <element signature="e#45952#46271#0" />
+            <element signature="e#46281#46583#0" />
+            <element signature="e#46593#46796#0" />
+            <element signature="e#46806#47185#0" />
+            <element signature="e#47195#47608#0" />
+            <element signature="e#47618#47996#0" />
+            <element signature="e#48006#48314#0" />
+            <element signature="e#48324#48565#0" />
+            <element signature="e#48575#48718#0" />
+            <element signature="e#48728#48872#0" />
+            <element signature="e#48882#49029#0" />
+            <element signature="e#49039#49411#0" />
+            <element signature="e#49421#49703#0" />
+            <element signature="e#49716#51369#0" />
+            <element signature="e#49905#50090#0" />
+            <element signature="e#50185#50342#0" />
+            <element signature="e#50443#50612#0" />
+            <element signature="e#51097#51106#0" />
+            <element signature="e#51097#51363#0" />
+            <element signature="e#51375#51442#0" />
+            <element signature="e#51375#52081#0" />
+            <element signature="e#51597#51925#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/Immutable/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/Immutable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/RequestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/GSMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algos/GuardedSuspension/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
         </state>
       </provider>
     </entry>

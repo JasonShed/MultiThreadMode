@@ -22,7 +22,7 @@ class SemaphoreThread extends Thread{
     public void run(){
         try{
             while (true){
-                boundedResource.use();
+                boundedResource.use();Thread.yield();
                 Thread.sleep(random.nextInt(3000));
             }
         } catch (InterruptedException e) {
